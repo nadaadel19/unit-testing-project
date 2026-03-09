@@ -1,4 +1,10 @@
-const getorder = (orderid)=>{
-    return {id:orderid, price:10}
+const getOrders = (orderid)=>{
+    return {id: orderid, price:100}
 }
-module.exports = getorder
+const updateOrder = (order) =>{
+    console.log("order has been updated")
+}
+module.exports ={
+    getOrders,
+    updateOrder
+}
